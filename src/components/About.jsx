@@ -6,18 +6,23 @@ function About() {
       <div className="max-w-[1200px] mx-auto flex pt-10 lg:flex-row flex-col-reverse">
         <div className="flex flex-col gap-3 text-blue-950 p-7 lg:w-2/4 justify-center">
           <h1 className="text-4xl font-bold mb-5">About US</h1>
-          <p>
+          <p className="text-justify">
+            We believe on our tag line that is sow . Connect. Harvest Sow :-Sow:
+            Knowledge at Your Fingertips Utkarsht Kisan empowers you to "Sow"
+            the seeds of success. The app provides access to a wealth of
+            localized and up-to-date information on various crops, including
+            Connect:-Building a Network for Success Utkarsht Kisan goes beyond
+            just information. It fosters a sense of "Connection" within the
+            agricultural community. Harvest:-get fruit of your hardwork
+          </p>
+          {/* <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure,
             ut dolores accusantium assumenda blanditiis.
           </p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure,
             ut dolores accusantium assumenda blanditiis.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure,
-            ut dolores accusantium assumenda blanditiis.
-          </p>
+          </p> */}
         </div>
         <div className="lg:w-2/4">
           <img alt="" src={"/about.png"} className="h-[25rem] mx-auto" />
