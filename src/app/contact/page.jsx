@@ -1,10 +1,14 @@
-import ContactF from "@/components/ContactF";
 import React from "react";
+import ContactF from "@/components/ContactF";
+import Navbar from "@/components/common/Navbar";
+import Footer from "@/components/common/Footer";
 
 function page() {
   return (
-    <div>
+    <div className="bg-white min-h-screen cont">
+      <Navbar />
       <ContactF />
+      {/* <Footer />ś */}
     </div>
   );
 }
