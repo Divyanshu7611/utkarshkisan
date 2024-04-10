@@ -12,12 +12,12 @@ export default function Hero() {
               Sow . Connect . Harvest
             </h1>
             <p className="text-justify">
-              At Utkarsh Kisan, we believe there's a better way. We believe
-              technology can bridge the gap and empower our farmers. That's why
-              we created Utkarsht Kisan - a revolutionary mobile app designed to
-              address these challenges head-on. The name itself signifies
-              "Excellent Farmer," reflecting our commitment to helping farmers
-              achieve agricultural excellence.
+              At Utkarsh Kisan, we believe there&apos;s a better way. We believe
+              technology can bridge the gap and empower our farmers. That&apos;s
+              why we created Utkarsht Kisan - a revolutionary mobile app
+              designed to address these challenges head-on. The name itself
+              signifies &quotExcellent Farmer,&quot reflecting our commitment to
+              helping farmers achieve agricultural excellence.
             </p>
             <div className="flex lg:gap-10 gap-5 lg:flex-row flex-col">
               <button className="lg:w-40 h-12 bg-gray-900 border-2 rounded-lg flex justify-center items-center gap-2 transition-all hover:scale-105 ">

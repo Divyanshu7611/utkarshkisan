@@ -8,12 +8,13 @@ function About() {
           <h1 className="text-4xl font-bold mb-5">About US</h1>
           <p className="text-justify">
             We believe on our tag line that is sow . Connect. Harvest Sow :-Sow:
-            Knowledge at Your Fingertips Utkarsht Kisan empowers you to "Sow"
-            the seeds of success. The app provides access to a wealth of
-            localized and up-to-date information on various crops, including
-            Connect:-Building a Network for Success Utkarsht Kisan goes beyond
-            just information. It fosters a sense of "Connection" within the
-            agricultural community. Harvest:-get fruit of your hardwork
+            Knowledge at Your Fingertips Utkarsht Kisan empowers you to
+            &ldquo;Sow&ldquo; the seeds of success. The app provides access to a
+            wealth of localized and up-to-date information on various crops,
+            including Connect:-Building a Network for Success Utkarsht Kisan
+            goes beyond just information. It fosters a sense of
+            &ldquo;Connection&ldquo; within the agricultural community.
+            Harvest:-get fruit of your hardwork
           </p>
           {/* <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure,
