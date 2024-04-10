@@ -23,7 +23,7 @@ function Footer() {
                   <i className="fas fa-phone"></i>
                   <div className="cta-text">
                     <h4>Call us</h4>
-                    <span>9876543210 0</span>
+                    <span>18004199943</span>
                   </div>
                 </div>
               </div>
@@ -32,7 +32,7 @@ function Footer() {
                   <i className="far fa-envelope-open"></i>
                   <div className="cta-text">
                     <h4>Mail us</h4>
-                    <span>mail@info.com</span>
+                    <span>info.utkarshkisan@gmail.com</span>
                   </div>
                 </div>
               </div>
