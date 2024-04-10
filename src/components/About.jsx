@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="bg-slate-300">
+    <div className="bg-slate-300" id="about">
       <div className="max-w-[1200px] mx-auto flex pt-10 lg:flex-row flex-col-reverse">
         <div className="flex flex-col gap-3 text-blue-950 p-7 lg:w-2/4 justify-center">
           <h1 className="text-4xl font-bold mb-5">About US</h1>

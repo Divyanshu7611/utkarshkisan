@@ -8,7 +8,7 @@ function Section() {
           Utkarsh Kisan: From Land Directly to Market
         </h1>
         <p className="text-center text-lg mt-5">
-          Utkarsht Kisan is more than just an app; it&apos;s a movement towards
+          Utkarsh Kisan is more than just an app; it&apos;s a movement towards
           a more empowered and prosperous future for Indian agriculture. By
           &quot;Sowing&quot; knowledge, &quot;Connecting&quot; with the
           community, and &quot;Harvesting&quot; success, Utkarsht Kisan empowers

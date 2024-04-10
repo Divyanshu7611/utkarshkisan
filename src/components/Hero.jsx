@@ -26,13 +26,18 @@ export default function Hero() {
               </button>
               <button className="lg:w-40 h-12 bg-gray-900 border-2 rounded-lg flex justify-center items-center gap-2 transition-all hover:scale-105 ">
                 <SiAppstore className="text-3xl" />
-                <h3 className="font-semibold">AppStore</h3>
+                <a className="font-semibold" href="#">
+                  AppStore
+                </a>
               </button>
             </div>
             <div className="w-full flex flex-col">
               <p>For Early Access Download Now</p>
               <button className="lg:w-96 h-12 bg-gray-900 border-2 rounded-lg flex justify-center items-center gap-2 transition-all hover:scale-105 ">
-                <a className="font-semibold" download="">
+                <a
+                  className="font-semibold"
+                  href="https://drive.google.com/file/d/133WOmQBYhsoRbtW2focMVJs2I1dccB_D/view?usp=sharing"
+                >
                   Download Now
                 </a>
               </button>
