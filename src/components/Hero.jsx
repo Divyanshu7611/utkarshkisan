@@ -4,51 +4,29 @@ import { SiAppstore } from "react-icons/si";
 
 export default function Hero() {
   return (
-    <div className="hero min-h-screen min-w-screen bg-green-800">
-      <div className="max-w-[1200px] mx-auto pt-16">
-        <div className="flex lg:flex-row flex-col-reverse justify-center items-center">
-          <div className="lg:w-2/4 flex flex-col gap-5 p-10">
-            <h1 className="lg:text-5xl text-xl font-bold">
-              Sow . Connect . Harvest
-            </h1>
-            <p className="text-justify">
-              At Utkarsh Kisan, we believe there&apos;s a better way. We believe
-              technology can bridge the gap and empower our farmers. That&apos;s
-              why we created Utkarsht Kisan - a revolutionary mobile app
-              designed to address these challenges head-on. The name itself
-              signifies &quotExcellent Farmer,&quot reflecting our commitment to
-              helping farmers achieve agricultural excellence.
-            </p>
-            <div className="flex lg:gap-10 gap-5 lg:flex-row flex-col">
-              <button className="lg:w-40 h-12 bg-gray-900 border-2 rounded-lg flex justify-center items-center gap-2 transition-all hover:scale-105 ">
-                <IoLogoGooglePlaystore className="text-3xl" />
-                <h3 className="font-semibold">PlayStore</h3>
-              </button>
-              <button className="lg:w-40 h-12 bg-gray-900 border-2 rounded-lg flex justify-center items-center gap-2 transition-all hover:scale-105 ">
-                <SiAppstore className="text-3xl" />
-                <a className="font-semibold" href="#">
-                  AppStore
-                </a>
-              </button>
-            </div>
-            <div className="w-full flex flex-col">
-              <p>For Early Access Download Now</p>
-              <button className="lg:w-96 h-12 bg-gray-900 border-2 rounded-lg flex justify-center items-center gap-2 transition-all hover:scale-105 ">
-                <a
-                  className="font-semibold"
-                  href="https://drive.google.com/file/d/133WOmQBYhsoRbtW2focMVJs2I1dccB_D/view?usp=sharing"
-                >
-                  Download Now
-                </a>
-              </button>
-            </div>
-          </div>
-          <div className="lg:w-2/4">
-            <img
-              src={"/phone.png"}
-              alt=""
-              className="lg:h-[560px] h-[380px] mx-auto"
-            />
+    <div>
+      <div className="hero min-h-screen min-w-screen flex items-center justify-center">
+        <div className="flex flex-col justify-center items-center max-w-[70rem]">
+          <img src="/logo.png" alt="" className="h-[100px]" />
+          <h1 className="text-center lg:text-7xl text-2xl font-bold">
+            Utkarsh Kisan Revolutionizing
+          </h1>
+          <h1 className="text-center lg:text-5xl text-xl font-bold">
+            Agriculture with techhnology
+          </h1>
+          <p className="max-w-lg text-center mt-3">
+            Li Europan lingues es membres del sam familie. Lor separat
+            existentie es un myth. Por scientie, musica, sport etc, litot Europa
+            usa li sam vocabular.
+          </p>
+          <p className="mt-10">Download Utkarsh Kisan App</p>
+          <div className="flex lg:flex-row flex-col gap-7 mt-5">
+            <button className="bg-[#204E51] py-3 px-5 rounded-lg font-semibold hover:scale-105">
+              Download Now
+            </button>
+            <button className="py-3 px-5 rounded-lg font-semibold border hover:scale-105">
+              Read More
+            </button>
           </div>
         </div>
       </div>
