@@ -21,7 +21,7 @@ export default function Hero() {
           </p>
           <p className="mt-10">Download Utkarsh Kisan App</p>
           <div className="flex lg:flex-row flex-col gap-7 mt-5">
-            <button className="bg-[#204E51] py-3 px-5 rounded-lg font-semibold hover:scale-105">
+            <button className="bg-[#b1c445] py-3 px-5 rounded-lg font-semibold hover:scale-105">
               Download Now
             </button>
             <button className="py-3 px-5 rounded-lg font-semibold border hover:scale-105">
