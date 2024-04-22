@@ -9,9 +9,9 @@ function Testimonials() {
             <div className="col-md-6 col-lg-4 item">
               <div className="box">
                 <p className="description">
-                  " Aenean tortor est, vulputate quis leo in, vehicula rhoncus
-                  lacus. Praesent aliquam in tellus eu gravida. Aliquam varius
-                  finibus est. "
+                  &quot;Aenean tortor est, vulputate quis leo in, vehicula
+                  rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam
+                  varius finibus est. &quot;
                 </p>
               </div>
               <div className="author">
