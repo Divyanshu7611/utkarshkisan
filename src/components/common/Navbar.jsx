@@ -156,15 +156,15 @@ const Navbar = () => {
 
   return (
     <div
-      className={`navbar fixed top-0 left-0 z-30 bg-opacity-80 hover:bg-opacity-90 transition-all duration-500 ${
-        scrolling ? "bg-[#393f14] p-4 backdrop-blur-md" : "bg-transparent p-6"
+      className={`navbar fixed top-0 left-0 z-30 bg-opacity-80 hover:bg-opacity-90 transition-all duration-500 overflow-hidden ${
+        scrolling ? "p-4 backdrop-blur-md bg-[#393f14]" : "bg-transparent p-6"
       }`}
     >
       {/* Hamburger Icon */}
-      <div className="lg:hidden md:hidden z-30">
+      <div className="lg:hidden md:hidden w-screen h-full">
         <button onClick={() => setIsOpen(!isOpen)}>
           <svg
-            className="w-6 h-6 text-white cursor-pointer"
+            className="w-6 h-6 text-white cursor-pointer absolute z-10 bottom-3"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -190,8 +190,8 @@ const Navbar = () => {
 
       {/* Collapsible menu for mobile */}
       {isOpen && (
-        <nav className="lg:hidden md:hidden justify-center items-center h-screen w-screen bg-[#222222] top-0 left-0 fixed">
-          <ul className="flex flex-col gap-3 mx-auto w-full">
+        <nav className="lg:hidden md:hidden justify-center items-center h-screen w-screen bg-[#222222] fixed left-0 top-0 ">
+          <ul className="flex flex-col gap-3 w-fit mx-auto my-auto">
             <li>
               <button onClick={() => navigate("/mun")}>Home</button>
             </li>
@@ -211,7 +211,7 @@ const Navbar = () => {
       )}
 
       {/* Logo and other items for larger screens */}
-      <nav className="hidden lg:flex md:flex justify-between w-screen">
+      <nav className="hidden lg:flex md:flex justify-between w-screen ">
         <div>
           <Image alt="" src={"/logo.png"} height={60} width={60} />
         </div>

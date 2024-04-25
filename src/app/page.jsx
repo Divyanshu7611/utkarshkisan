@@ -12,7 +12,7 @@ import Swiper from "@/components/common/Swiper";
 export default function page() {
   return (
     <div className="bg-slate-200">
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <Hero2 />
       <Services />
