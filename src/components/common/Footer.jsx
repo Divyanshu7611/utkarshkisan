@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Records from "../mini/Records";
 import { IoStar } from "react-icons/io5";
+import { IBM_Plex_Sans_Condensed } from "next/font/google";
 
 function Footer() {
   return (
@@ -30,8 +31,8 @@ function Footer() {
         <div className="flex flex-col justify-between">
           <h1 className="text-xl font-bold mt-3">Recent Updates</h1>
           <div className="flex flex-col gap-2">
-            <div className="flex gap-2">
-              <img src="/static/rice.png" width={80} height={80} />
+            <div className="flex gap-1">
+              <Image src="/static/rice.png" width={80} height={80} />
               <div className="flex flex-col justify-end">
                 <h1 className="text-orange-200 font-semibold">12 SEP</h1>
                 <p>Lorem ipsum dolor sit.</p>
@@ -39,7 +40,7 @@ function Footer() {
             </div>
             {/* 2 newe */}
             <div className="flex gap-2">
-              <img src="/static/rice.png" width={80} height={80} />
+              <Image src="/static/rice.png" width={80} height={80} />
               <div className="flex flex-col justify-end">
                 <h1 className="text-orange-200 font-semibold">12 SEP</h1>
                 <p>Lorem ipsum dolor sit.</p>
