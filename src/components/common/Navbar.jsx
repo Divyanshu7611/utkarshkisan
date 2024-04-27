@@ -2,14 +2,11 @@
 // import React, { useState, useCallback, useEffect } from "react";
 // import Image from "next/image";
 // import { useRouter } from "next/navigation";
-// import { IoArrowBackOutline } from "react-icons/io5";
-// import { MdOutlineArrowBackIos } from "react-icons/md";
-// // import tharlogo from "../assets/thar-logo.png";
 
 // const Navbar = () => {
 //   const router = useRouter();
 //   const [isOpen, setIsOpen] = useState(false);
-//   const [Scrolling, setIsScrolled] = useState(false);
+//   const [scrolling, setScrolling] = useState(false);
 
 //   const navigate = useCallback(
 //     (name) => {
@@ -19,59 +16,58 @@
 //     [router]
 //   );
 //   useEffect(() => {
-//     const HandleScroll = () => {
+//     const handleScroll = () => {
 //       if (window.scrollY > 50) {
-//         setIsScrolled(true);
+//         setScrolling(true);
 //       } else {
-//         setIsScrolled(false);
+//         setScrolling(false);
 //       }
 //     };
 
-//     window.addEventListener("scroll", HandleScroll);
+//     window.addEventListener("scroll", handleScroll);
 //     return () => {
-//       window.removeEventListener("scroll", HandleScroll);
+//       window.removeEventListener("scroll", handleScroll);
 //     };
 //   }, []);
 
 //   return (
 //     <div
-//       className={`navbar fixed top-0 left-0 z-30 bg-opacity-80 hover:bg-opacity-90 transition-all duration-500 ${
-//         Scrolling ? "bg-[#393f14] p-4 backdrop-blur-md" : "bg-transparent p-6"
+//       className={`navbar fixed top-0 left-0 z-30 bg-opacity-80 hover:bg-opacity-90 transition-all duration-500 overflow-hidden ${
+//         scrolling ? "p-4 backdrop-blur-md bg-[#393f14]" : "bg-transparent p-6"
 //       }`}
 //     >
-//       <div className="flex justify-between items-center absolute">
-//         <div className="lg:hidden md:hidden z-30">
-//           <button onClick={() => setIsOpen(!isOpen)}>
-//             <svg
-//               className="w-6 h-6 text-white cursor-pointer"
-//               fill="none"
-//               viewBox="0 0 24 24"
-//               stroke="currentColor"
-//             >
-//               {isOpen ? (
-//                 <path
-//                   strokeLinecap="round"
-//                   strokeLinejoin="round"
-//                   strokeWidth="2"
-//                   d="M6 18L18 6M6 6l12 12"
-//                 />
-//               ) : (
-//                 <path
-//                   strokeLinecap="round"
-//                   strokeLinejoin="round"
-//                   strokeWidth="2"
-//                   d="M4 6h16M4 12h16m-7 6h7"
-//                 />
-//               )}
-//             </svg>
-//           </button>
-//         </div>
+//       {/* Hamburger Icon */}
+//       <div className="lg:hidden md:hidden w-screen h-full">
+//         <button onClick={() => setIsOpen(!isOpen)}>
+//           <svg
+//             className="w-6 h-6 text-white cursor-pointer absolute z-10 bottom-3"
+//             fill="none"
+//             viewBox="0 0 24 24"
+//             stroke="currentColor"
+//           >
+//             {isOpen ? (
+//               <path
+//                 strokeLinecap="round"
+//                 strokeLinejoin="round"
+//                 strokeWidth="2"
+//                 d="M6 18L18 6M6 6l12 12"
+//               />
+//             ) : (
+//               <path
+//                 strokeLinecap="round"
+//                 strokeLinejoin="round"
+//                 strokeWidth="2"
+//                 d="M4 6h16M4 12h16m-7 6h7"
+//               />
+//             )}
+//           </svg>
+//         </button>
 //       </div>
 
 //       {/* Collapsible menu for mobile */}
 //       {isOpen && (
-//         <nav className="lg:hidden md:hidden justify-center items-center h-screen w-screen bg-[#222222] top-0 left-0 fixed">
-//           <ul className="flex flex-col gap-3">
+//         <nav className="lg:hidden md:hidden justify-center items-center h-full w-screen bg-[#222222] fixed left-0 top-0 z-0">
+//           <ul className="flex flex-col gap-3 w-fit mx-auto my-auto">
 //             <li>
 //               <button onClick={() => navigate("/mun")}>Home</button>
 //             </li>
@@ -80,11 +76,9 @@
 //                 About Us
 //               </button>
 //             </li>
-
 //             <li>
 //               <button onClick={() => navigate("/mun/#foot")}>Services</button>
 //             </li>
-
 //             <li>
 //               <button onClick={() => navigate("/")}>Go Back</button>
 //             </li>
@@ -92,17 +86,18 @@
 //         </nav>
 //       )}
 
-//       {/* for larger screens */}
-//       <nav className="justify-between flex w-screen">
-//         <Image alt="" src={"/logo.png"} height={60} width={60} className="" />
+//       {/* Logo and other items for larger screens */}
+//       <nav className="hidden lg:flex md:flex justify-between w-screen ">
+//         <div>
+//           <Image alt="" src={"/logo.png"} height={60} width={60} />
+//         </div>
 //         <ul className="flex gap-5 justify-between items-center mx-auto text-base">
 //           <li>
 //             <button onClick={() => navigate("/mun")}>Home</button>
 //           </li>
 //           <li>
-//             <button onClick={() => navigate("/mun/#committe")}>About</button>
+//             <button onClick={() => navigate("/mun#committe")}>About</button>
 //           </li>
-
 //           <li>
 //             <button onClick={() => navigate("/mun/#foot")}>Services</button>
 //           </li>
@@ -121,6 +116,7 @@
 // };
 
 // export default Navbar;
+
 
 import React, { useState, useCallback, useEffect } from "react";
 import Image from "next/image";
@@ -156,7 +152,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`navbar fixed top-0 left-0 z-30 bg-opacity-80 hover:bg-opacity-90 transition-all duration-500 overflow-hidden ${
+      className={`navbar fixed top-0 left-0 z-30 bg-opacity-80 hover:bg-opacity-90 transition-all duration-500 ${
         scrolling ? "p-4 backdrop-blur-md bg-[#393f14]" : "bg-transparent p-6"
       }`}
     >
@@ -164,7 +160,7 @@ const Navbar = () => {
       <div className="lg:hidden md:hidden w-screen h-full">
         <button onClick={() => setIsOpen(!isOpen)}>
           <svg
-            className="w-6 h-6 text-white cursor-pointer absolute z-10 bottom-3"
+            className="w-6 h-6 text-white cursor-pointer absolute z-50 bottom-3"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -190,8 +186,8 @@ const Navbar = () => {
 
       {/* Collapsible menu for mobile */}
       {isOpen && (
-        <nav className="lg:hidden md:hidden justify-center items-center h-screen w-screen bg-[#222222] fixed left-0 top-0 ">
-          <ul className="flex flex-col gap-3 w-fit mx-auto my-auto">
+        <nav className="lg:hidden md:hidden justify-center items-center h-[100vh] w-screen bg-[#222222] fixed left-0 top-0 z-30">
+          <ul className="flex flex-col gap-3 w-full h-screen justify-center items-center">
             <li>
               <button onClick={() => navigate("/mun")}>Home</button>
             </li>
@@ -211,7 +207,7 @@ const Navbar = () => {
       )}
 
       {/* Logo and other items for larger screens */}
-      <nav className="hidden lg:flex md:flex justify-between w-screen ">
+      <nav className="hidden lg:flex md:flex justify-between w-screen">
         <div>
           <Image alt="" src={"/logo.png"} height={60} width={60} />
         </div>
