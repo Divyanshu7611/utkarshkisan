@@ -11,7 +11,7 @@ function Privacy() {
           Protecting Your Privacy At Utkarsh kisan,we take the privacy of our
           users very seriously. This Privacy Policy describes how we collect,
           use, and disclose your personal information when you visit our website
-          ("Site") and use our services ("Services"). Information We Collect
+          and use our services. Information We Collect
           <br /> We collect two types of information on our Site:
           <br /> • Personal Information: This includes information that can be
           used to identify you, such as your name, email address, phone number,
@@ -39,14 +39,14 @@ function Privacy() {
           <br /> • You can access and update your personal information at any
           time by logging into your account.
           <br /> • You can unsubscribe from our marketing communications by
-          clicking the "unsubscribe" link at the bottom of any email. Data
-          Security We take reasonable steps to protect your information from
-          unauthorized access, disclosure, alteration, or destruction. However,
-          no website or internet transmission is completely secure. Changes to
-          this Privacy Policy We may update this Privacy Policy from time to
-          time. We will notify you of any changes by posting the new Privacy
-          Policy on our Site. Contact Us If you have any questions about this
-          Privacy Policy, please contact us at{" "}
+          clicking the &quot;unsubscribe&quot; link at the bottom of any email.
+          Data Security We take reasonable steps to protect your information
+          from unauthorized access, disclosure, alteration, or destruction.
+          However, no website or internet transmission is completely secure.
+          Changes to this Privacy Policy We may update this Privacy Policy from
+          time to time. We will notify you of any changes by posting the new
+          Privacy Policy on our Site. Contact Us If you have any questions about
+          this Privacy Policy, please contact us at{" "}
           <strong>utkarshkisan@gmail.com</strong>
         </p>
       </div>
