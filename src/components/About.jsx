@@ -3,42 +3,42 @@ import Product from "./mini/Product";
 
 function About() {
   return (
-    <div className="mt-32 mb-32" id="about">
+    <div className="mt-32 mb-32" id="productsScroll">
       <div className="max-w-[1200px] mx-auto flex-col flex">
         <h1 className="text-[#768233] text-5xl font-bold text-center">
           Our Featured Product
         </h1>
         <p className="text-[#1E1E1E] font-medium text-center mt-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore group
-          adipisicing elit , quaerat.
+          Revolutionize your farm. Download Utkarsh Kisan, the all-in-one app
+          for success.
         </p>
         <div className="flex justify-between mt-16 lg:flex-row flex-col lg:gap-0 gap-5 p-5">
           <Product
-            title={"Rice"}
+            title={"Pulses"}
             image={"/static/rice.png"}
             description={
-              "Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. "
+              "Pulses such as pigeon pea, Moong Dal , Urad Dal , Masoor Dal , Chana Dal , Tuvar Dal ,Kulthi Dal."
             }
           />
           <Product
-            title={"Rice"}
+            title={"Food Grains"}
             image={"/static/rice.png"}
             description={
-              "Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. "
+              "Food Grains Such as Rice ,Wheat, Maize, Millets, Barley , Oats"
             }
           />
           <Product
-            title={"Rice"}
+            title={"Oil Seeds"}
             image={"/static/rice.png"}
             description={
-              "Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. "
+              "Oil Seeds Such as Mustard, Groundnut, Sesame, Soyabean, Sunflower, Castor , Coconut"
             }
           />
           <Product
-            title={"Rice"}
+            title={"Spices"}
             image={"/static/rice.png"}
             description={
-              "Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. "
+              "Spices such as Turmeric ,Chilli ,Coriander, Cumin , Fenugreek , Black Pepper , Cardamom, Cloves , Nutmeg"
             }
           />
         </div>

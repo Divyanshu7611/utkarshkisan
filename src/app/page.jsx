@@ -8,6 +8,7 @@ import Hero2 from "@/components/Hero2";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import Swiper from "@/components/common/Swiper";
+import Privacy from "@/components/Privacy";
 
 export default function page() {
   return (
@@ -19,6 +20,7 @@ export default function page() {
       <About />
       <Section />
       <Swiper />
+      <Privacy />
       <Footer />
     </div>
   );

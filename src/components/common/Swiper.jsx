@@ -48,19 +48,43 @@ export default function swiper() {
         className="mySwiper lg:max-w-[1200px]  mobileSwip "
       >
         <SwiperSlide className="rounded-xl h-fit">
-          <Testimonials />
+          <Testimonials
+            description={
+              "Utkarsh Kisan is my one-stop shop for all things farming. The app keeps me updated on market prices and connects me directly with consumers."
+            }
+            city={"Bihar(Farmer)"}
+            name={"Amit Kumar"}
+          />
         </SwiperSlide>
         {/* 2 */}
         <SwiperSlide className="rounded-xl h-fit">
-          <Testimonials />
+          <Testimonials
+            description={
+              "Utkarsh Kisan expert guidance and online community helped me clarify my career path in agriculture. I feel confident and prepared for my future."
+            }
+            city={"Rajasthan(Student)"}
+            name={"Riya Sharma"}
+          />
         </SwiperSlide>
         {/* 3 */}
         <SwiperSlide className="rounded-xl h-fit">
-          <Testimonials />
+          <Testimonials
+            description={
+              "Since using Utkarsh Kisan, I have become more efficient in managing my farm resources. The app is easy-to-use interface."
+            }
+            name={"Sanjay Mishra"}
+            city={"Uttar Pradesh (Farmer)"}
+          />
         </SwiperSlide>
         {/* 4 */}
         <SwiperSlide className="rounded-xl h-fit">
-          <Testimonials />
+          <Testimonials
+            description={
+              "Utkarsh Kisan has been a game-changer for my farm. I have learned new techniques, gotten better prices for my crops, and increased my yield by 20%"
+            }
+            name={"Rajesh Patel"}
+            city={"Maharashtra (Farmer)"}
+          />
         </SwiperSlide>
       </Swiper>
     </>

@@ -15,9 +15,8 @@ function Section() {
             The Benefits of Choosing Our Expertise
           </h1>
           <p className="text-[#1E1E1E] font-normal mt-5">
-            Li Europan lingues es membres del sam familie. Lor separat
-            existentie es un myth. Por scientie, musica, sport etc, litot Europa
-            usa li sam vocabular.{" "}
+            From knowledge to harvest, we empower you. Choose Utkarsh Kisan,
+            your trusted guide in agritech.
           </p>
 
           <button className="bg-[#204E51] px-10 py-3 rounded-lg hover:scale-105 flex justify-center items-baseline gap-3 mt-10 lg:w-fit w-full font-semibold">
