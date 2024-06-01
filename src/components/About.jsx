@@ -15,28 +15,28 @@ function About() {
         <div className="flex justify-between mt-16 lg:flex-row flex-col lg:gap-0 gap-5 p-5">
           <Product
             title={"Pulses"}
-            image={"/static/rice.png"}
+            image={"/products/grams.jpg"}
             description={
               "Pulses such as pigeon pea, Moong Dal , Urad Dal , Masoor Dal , Chana Dal , Tuvar Dal ,Kulthi Dal."
             }
           />
           <Product
             title={"Food Grains"}
-            image={"/static/rice.png"}
+            image={"/products/foodgrains.jpg"}
             description={
               "Food Grains Such as Rice ,Wheat, Maize, Millets, Barley , Oats"
             }
           />
           <Product
             title={"Oil Seeds"}
-            image={"/static/rice.png"}
+            image={"/products/seeds.jpg"}
             description={
               "Oil Seeds Such as Mustard, Groundnut, Sesame, Soyabean, Sunflower, Castor , Coconut"
             }
           />
           <Product
             title={"Spices"}
-            image={"/static/rice.png"}
+            image={"/products/spices.jpg"}
             description={
               "Spices such as Turmeric ,Chilli ,Coriander, Cumin , Fenugreek , Black Pepper , Cardamom, Cloves , Nutmeg"
             }

@@ -17,16 +17,16 @@ function Services() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10 p-5 animate-fadeInUp animate-delay-400 mx-auto">
           <div className="service-card">
-            <Serve title={"lorem"} logo={"/static/icon1.png"} />
+            <Serve title={"Buy"} logo={"/static/icon1.png"} />
           </div>
           <div className="service-card">
-            <Serve title={"lorem"} logo={"/static/icon1.png"} />
+            <Serve title={"Sell"} logo={"/static/icon1.png"} />
           </div>
           <div className="service-card">
-            <Serve title={"lorem"} logo={"/static/icon1.png"} />
+            <Serve title={"shipping order"} logo={"/static/icon1.png"} />
           </div>
           <div className="service-card">
-            <Serve title={"lorem"} logo={"/static/icon1.png"} />
+            <Serve title={"Gateway"} logo={"/static/icon1.png"} />
           </div>
         </div>
       </div>

@@ -49,6 +49,54 @@ function Privacy() {
           this Privacy Policy, please contact us at{" "}
           <strong>utkarshkisan@gmail.com</strong>
         </p>
+        <h1 className="text-lg font-semibold mb-2 text-black mt-5">
+          What are Cookies?{" "}
+        </h1>
+        <p className="text-[#1E1E1E]">
+          Cookies are small text files that are stored on your computer or
+          mobile device when you visit a website. They are widely used to
+          remember you and your preferences when you visit a website again. How
+          We Use Cookies We use cookies on our Site to:
+          <br /> • Improve your browsing experience
+          <br /> • Remember your preferences (e.g., language, location)
+          <br /> • Analyze how you use our Site
+          <br /> • Target advertising to you
+        </p>
+        <h1 className="text-lg font-semibold mb-2 text-black mt-5">
+          Terms & Conditions
+        </h1>
+        <p className="text-[#1E1E1E]">
+          These Terms & Conditions govern your use of our website and services.
+          By accessing or using our Site or Services, you agree to be bound by
+          these Terms. Use of Our Site and Services You may use our Site and
+          Services only for lawful purposes and in accordance with these Terms.
+          You agree not to:
+          <br /> • Use our Site or Services in any way that could damage,
+          disable, overburden, or impair our servers or networks.
+          <br /> • Attempt to gain unauthorized access to our Site or Services,
+          computer systems, or networks.
+          <br /> • Upload any malicious code or viruses to our Site.
+          <br /> • Violate any applicable laws or regulations. Intellectual
+          Property The content of our Site and Services, including all text,
+          graphics, logos, images, and software, is the property of Utkarsh or
+          its licensors and is protected by copyright and other intellectual
+          property laws. Termination We may terminate your access to our Site or
+          Services at any time, for any reason, without notice. Disclaimer Our
+          Site and Services are provided and without warranties of any kind,
+          express or implied. We disclaim all warranties, including, but not
+          limited to, warranties of merchantability, fitness for a particular
+          purpose, and non-infringement. Limitation of Liability We will not be
+          liable for any damages arising out of your use of our Site or
+          Services, including, but not limited to, direct, indirect, incidental,
+          consequential, or punitive damages. Dispute Resolution These Terms
+          will be governed by and construed in accordance with the laws of
+          [insert jurisdiction]. Any dispute arising out of or relating to these
+          Terms will be settled by [insert dispute resolution method]. Entire
+          Agreement These Terms constitute the entire agreement between you and
+          Utkarsh regarding your use of our Site and Services. Contact Us If you
+          have any questions about these Terms, please contact us at{" "}
+          <strong>utkarshkisan@gmail.com</strong>
+        </p>
       </div>
     </div>
   );

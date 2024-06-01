@@ -8,8 +8,8 @@ function Product({ image, title, description }) {
           src={image}
           alt="Something Went Wrong"
           loading="lazy"
-          width={190}
-          height={190}
+          width={200}
+          height={300}
           className="rounded-xl"
         />
         <h1 className="text-[#204E51] text-xl font-semibold">{title}</h1>

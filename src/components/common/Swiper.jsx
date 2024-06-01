@@ -18,7 +18,8 @@ export default function swiper() {
         Testimonials
       </h1>
       <p className="text-[#1E1E1E] text-center mb-20 font-semibold">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ducimus
+        Cultivate a more profitable future. Utkarsh Kisan: Your expert partner
+        in Indian agriculture.
       </p>
       {/* fpr mobile screen */}
       <Swiper

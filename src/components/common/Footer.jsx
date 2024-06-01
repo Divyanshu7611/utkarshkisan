@@ -4,6 +4,9 @@ import Records from "../mini/Records";
 import { IoStar } from "react-icons/io5";
 import { IBM_Plex_Sans_Condensed } from "next/font/google";
 import { FaPaperPlane } from "react-icons/fa";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { RiCustomerService2Fill } from "react-icons/ri";
+import { MdPlace } from "react-icons/md";
 
 import Link from "next/link";
 
@@ -60,29 +63,29 @@ function Footer() {
           <h1 className="text-xl font-bold mt-3">Contact Info</h1>
           <div className="flex flex-col justify-between">
             <Records
-              title={"15+"}
-              description={"Years Of Experience"}
+              title={"Email"}
+              description={"info.utkarshkisan@gmail.com"}
               logo={
                 <div>
-                  <IoStar className="text-xl" />
+                  <MdOutlineMailOutline className="text-base" />
                 </div>
               }
             />
             <Records
-              title={"15+"}
-              description={"Years Of Experience"}
+              title={"Toll-free number"}
+              description={"1800 419 9943"}
               logo={
                 <div>
-                  <IoStar className="text-xl" />
+                  <RiCustomerService2Fill className="text-base" />
                 </div>
               }
             />
             <Records
-              title={"15+"}
-              description={"Years Of Experience"}
+              title={"Address"}
+              description={"vaishali Nagar, Jaipur"}
               logo={
                 <div>
-                  <IoStar className="text-xl" />
+                  <MdPlace className="text-base" />
                 </div>
               }
             />
