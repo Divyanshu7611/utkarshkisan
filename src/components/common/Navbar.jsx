@@ -120,9 +120,10 @@ const Navbar = () => {
           <li>
             <Link href={"#testiScroll"}>Testimonials</Link>
           </li>
+
           <li>
-            <Link href={"/account/delete"}>User Deletion</Link>
-          </li>
+              <Link href={"/account/delete"}>User Deletion</Link>
+            </li>
           <li>
             <Link href={"#privacyScroll"}>Privacy Policy</Link>
           </li>
