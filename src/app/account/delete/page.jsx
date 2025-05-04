@@ -32,7 +32,7 @@ export default function DeletePage() {
       {!deleted ? (
         <>
           <h1 className="text-2xl font-bold mb-4 text-red-600">Delete My Account</h1>
-          <p className="mb-4 text-gray-700">We're sad to see you go. Fill the form and click below to delete your account.</p>
+          <p className="mb-4 text-gray-700">We&apos;re sad to see you go. Fill the form and click below to delete your account.</p>
 
           <div className="mb-4">
             <label className="block text-sm font-medium mb-1">Name</label>
