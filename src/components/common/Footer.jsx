@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { FaInstagram } from 'react-icons/fa';
 import Records from "../mini/Records";
 import { IoStar } from "react-icons/io5";
 import { IBM_Plex_Sans_Condensed } from "next/font/google";
@@ -7,7 +8,6 @@ import { FaPaperPlane } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import { MdPlace } from "react-icons/md";
-
 import Link from "next/link";
 
 function Footer() {
@@ -39,26 +39,26 @@ function Footer() {
             <a href="#">Contact Us</a>
           </div>
         </div>
+
+
         <div className="flex flex-col justify-between">
-          <h1 className="text-xl font-bold mt-3">Recent Updates</h1>
+          <h1 className="text-xl font-bold mt-3">Social Updates</h1>
           <div className="flex flex-col gap-2">
-            <div className="flex gap-1">
-              <Image src="/static/rice.png" width={80} height={80} />
+            <div className="flex gap-3 items-center">
+              <Link href='https://www.instagram.com/utkarsh_kisan?igsh=MWVxYjRhejVpeXd2dg==' target="_blank" className="hover:scale-105">
+              <FaInstagram size={50} className="text-white" />
+              </Link>
               <div className="flex flex-col justify-end">
-                <h1 className="text-orange-200 font-semibold">12 SEP</h1>
-                <p>Lorem ipsum dolor sit.</p>
-              </div>
-            </div>
-            {/* 2 newe */}
-            <div className="flex gap-2">
-              <Image src="/static/rice.png" width={80} height={80} />
-              <div className="flex flex-col justify-end">
-                <h1 className="text-orange-200 font-semibold">12 SEP</h1>
-                <p>Lorem ipsum dolor sit.</p>
+                <Link href='https://www.instagram.com/utkarsh_kisan?igsh=MWVxYjRhejVpeXd2dg==' target="_blank" className="hover:scale-105">
+                
+                <h1 className="text-orange-400 font-semibold">Connect Us</h1>
+                </Link>
+                <p>Follow us on Instagram</p>
               </div>
             </div>
           </div>
         </div>
+
         <div className="flex flex-col items-start justify-between">
           <h1 className="text-xl font-bold mt-3">Contact Info</h1>
           <div className="flex flex-col justify-between">
@@ -73,7 +73,7 @@ function Footer() {
             />
             <Records
               title={"Toll-free number"}
-              description={"1800 419 9943"}
+              description={"74259 00711"}
               logo={
                 <div>
                   <RiCustomerService2Fill className="text-base" />
@@ -82,7 +82,7 @@ function Footer() {
             />
             <Records
               title={"Address"}
-              description={"vaishali Nagar, Jaipur"}
+              description={"508, 5th Floor, Mansarovar Plaza, Jaipur, Rajasthan"}
               logo={
                 <div>
                   <MdPlace className="text-base" />
